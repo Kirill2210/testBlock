@@ -148,6 +148,7 @@ button {
 }
 .product {
 	padding-top: 172px;
+	padding-bottom: 80px;
 }
 .product__wrapper {
 	display: -ms-grid;
@@ -331,18 +332,21 @@ button {
 	color: #343434;
 	font-size: 18px;
 	line-height: 34px;
+	white-space: nowrap;
 }
 .product__buy-btn {
+	width: 100%;
 	position: relative;
 	margin-left: 30px;
 }
 .product__buy-btn button {
 	font-size: 16px;
+	width: 100%;
 	line-height: 22px;
 	color: #fff;
 	border-radius: 25px;
 	background-color: #242841;
-	padding: 13px 150px 14px;
+	padding: 13px 10px 14px;
 }
 .product__buy-btn span{
 	position: absolute;
