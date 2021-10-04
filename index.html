@@ -4,13 +4,165 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+	<title>Product</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	
+	<header class="header">
+		<div class="container-fluide">
+			<div class="header__inner">
+				<div class="header__left">
+					<div class="logo">
+						<a href="#">
+							<img src="images/logo.svg" alt="logo">
+						</a>
+					</div>
+					<ul class="header__category">
+						<li class="header__category-item">
+							<span>Модель-1</span>
+						</li>
+						<li class="header__category-item">
+							<span>Модель-2</span>
+						</li>
+						<li class="header__category-item">
+							<span>Модель-3</span>
+						</li>
+						<li class="header__category-item">
+							<span>Модель-4</span>
+						</li>
+						<li class="header__category-item">
+							<span>Модель-5</span>
+						</li>
+						<li class="header__category-item">
+							<span>Модель-6</span>
+						</li>
+						<li class="header__category-item">
+							<span>Модель-7</span>
+						</li>
+						<li class="header__category-item active"><span>Модель V-LIFE</span></li>
+						<li class="header__category-item">
+							<span>Модель-8</span>
+						</li>
+						<li class="header__category-item">
+							<span>Модель-9</span>
+						</li>
+						<li class="header__category-item">
+							<span>Модель-10</span>
+						</li>
+						<li class="header__category-item">
+							<span>Модель-11</span>
+						</li>
+						<li class="header__category-item">
+							<span>Модель-12</span>
+						</li>
+					</ul>
+				</div>
+				<div class="header__right">
+					<div class="header__buy">
+						<button>Купить</button>
+					</div>
+					<button class="header__basket">
+						<img src="images/basket.svg" alt="basket">
+					</button>
+					<button class="header__burger">
+						<div class="header__burger-line">
+							<span></span>
+							<span class="burger__line-big"></span>
+							<span></span>
+						</div>
+					</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="product">
+		<div class="container">
+			<div class="product__wrapper">
+				<div class="product__content">
+					<div class="product__content-title">
+						Модель V-LIFE
+					</div>
+					<div class="product__content-text">
+						Дизайн - неординарный, стильный, строгий и лаконичный, он послужит прекрасной `оправой` для главного кольца!
+					</div>
+				</div>
+				<div class="product__slider">
+					<button class="product__slider-turn">
+						<img src="images/turn.svg" alt="turn">
+						360°
+					</button>
+					<div class="swiper-product">
+					  <div class="swiper-wrapper">
+					    <div class="swiper-slide">
+					    	<img src="images/product-slide01.png" alt="slide">
+					    </div>
+					    <div class="swiper-slide">
+					    	<img src="images/product-slide02.png" alt="slide">
+					    </div>
+					    <div class="swiper-slide">
+					    	<img src="images/product-slide03.png" alt="slide">
+					    </div>
+					  </div>
+					  <div class="swiper-scrollbar"></div>
+					</div>
+				</div>
+				<div class="product__specifications">
+					<div class="product__specifications-top">
+						<div class="product__specifications-quantity">
+							<div class="product__specifications-subtitle">
+								Количество:
+							</div>
+							<div class="product__specifications-box">
+								<button class="product__reduce">-</button>
+								<span class="product__quantity">1</span>
+								<button class="product__add">+</button>
+							</div>
+						</div>
+						<div class="product__specifications-colour">
+							<div class="product__specifications-subtitle">
+								Цвет
+							</div>
+							<div class="product__specifications-box">
+								<button class="colour__btn black active">
+									<span></span>
+								</button>
+								<button class="colour__btn blue">
+									<span></span>
+								</button>
+								<button class="colour__btn red">
+									<span></span>
+								</button>
+							</div>
+						</div>
+						<div class="product__specifications-size">
+							<div class="product__specifications-subtitle">
+								Размер
+							</div>
+							<div class="product__specifications-box">
+								<button class="size__btn active">
+									M
+								</button>
+								<button class="size__btn">
+									XS
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="product__specifications-buy">
+						<span class="product__price">4990 Р</span>
+						<div class="product__buy-btn">
+							<button>Купить упаковку</button>
+							<span>Доставка осуществляется от 3 дней</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
